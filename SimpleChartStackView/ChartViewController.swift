@@ -21,7 +21,7 @@ class ChartViewController: UIViewController {
         super.viewDidAppear(animated)
         var chartData = ChartData()
         for x in 1...24 {
-            chartData.values.append(ChartItem(value: Double(x), color: .gray, topTitle: x == 1 || x == 5 ? "top\(x)" : " ", BottomTitle: x == 1 || x == 5 ? "$\(x)" : " "))
+            chartData.values.append(ChartItem(value: Double(x), color: x % 2 == 0 ? .gray : .lightGray, topTitle: x == 1 || x == 5 ? "top\(x)" : " ", bottomTitle: x == 1 || x == 5 ? "$\(x)" : " "))
         }
         chartView.configure(with: chartData)
     }
