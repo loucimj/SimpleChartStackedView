@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4174D4F021DCF32400D513D1 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174D4EF21DCF32400D513D1 /* ChartViewController.swift */; };
+		4174D4F221DCF3C500D513D1 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174D4F121DCF3C500D513D1 /* ChartView.swift */; };
 		41E18F2721D995BA0091AD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E18F2621D995BA0091AD50 /* AppDelegate.swift */; };
-		41E18F2921D995BA0091AD50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E18F2821D995BA0091AD50 /* ViewController.swift */; };
 		41E18F2C21D995BA0091AD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E18F2A21D995BA0091AD50 /* Main.storyboard */; };
 		41E18F2E21D995BB0091AD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E18F2D21D995BB0091AD50 /* Assets.xcassets */; };
 		41E18F3121D995BB0091AD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E18F2F21D995BB0091AD50 /* LaunchScreen.storyboard */; };
@@ -26,9 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4174D4EF21DCF32400D513D1 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		4174D4F121DCF3C500D513D1 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		41E18F2321D995BA0091AD50 /* SimpleChartStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChartStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E18F2621D995BA0091AD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41E18F2821D995BA0091AD50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41E18F2B21D995BA0091AD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41E18F2D21D995BB0091AD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E18F3021D995BB0091AD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				41E18F2621D995BA0091AD50 /* AppDelegate.swift */,
-				41E18F2821D995BA0091AD50 /* ViewController.swift */,
 				41E18F2A21D995BA0091AD50 /* Main.storyboard */,
 				41E18F2D21D995BB0091AD50 /* Assets.xcassets */,
 				41E18F2F21D995BB0091AD50 /* LaunchScreen.storyboard */,
 				41E18F3221D995BB0091AD50 /* Info.plist */,
+				4174D4EF21DCF32400D513D1 /* ChartViewController.swift */,
+				4174D4F121DCF3C500D513D1 /* ChartView.swift */,
 			);
 			path = SimpleChartStackView;
 			sourceTree = "<group>";
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E18F2921D995BA0091AD50 /* ViewController.swift in Sources */,
 				41E18F2721D995BA0091AD50 /* AppDelegate.swift in Sources */,
+				4174D4F021DCF32400D513D1 /* ChartViewController.swift in Sources */,
+				4174D4F221DCF3C500D513D1 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
